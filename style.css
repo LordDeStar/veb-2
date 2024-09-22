@@ -1,0 +1,52 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-link{
+    font-size: 20px;
+    height: 25%;
+    animation: onUnhover 0.3s forwards;
+}
+.nav-link:hover{
+    animation: onHover 0.3s forwards;
+}
+header{
+    background-image: url('https://en.idei.club/uploads/posts/2023-06/1686291552_en-idei-club-p-orange-header-dizain-krasivo-12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 5px 10px black;
+}
+body{
+    background-image: url('https://avatars.mds.yandex.net/i?id=c75d973cdeac13fb7dccde849c68a1ec83a7cdaa-7755802-images-thumbs&n=13');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:rgba(255, 255, 255, 0.92);
+
+}
+main{
+    margin-top:5%;
+}
+main p{
+    margin-left:3%;
+}
+@keyframes onHover{
+    0%{
+        height: 25%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+@keyframes onUnhover{
+    0%{
+        height: 100%;
+    }
+    100%{
+        height: 25%;
+    }
+}
